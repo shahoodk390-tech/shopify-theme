@@ -8,6 +8,14 @@
 
 .banner__box {
   text-align: center;
+  background-color: rgba(var(--color-background), 0.86);
+  border-radius: 2rem;
+  border: 0.1rem solid rgba(var(--color-foreground), 0.08);
+  box-shadow: 0 2rem 3rem rgba(var(--color-foreground), 0.1);
+}
+
+.banner__box > * {
+  color: rgb(var(--color-foreground));
 }
 
 /* Needed for gradient continuity with or without animation, the transform scopes the gradient to its container which happens already when animation are turned on */

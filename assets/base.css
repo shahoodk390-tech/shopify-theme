@@ -8,6 +8,26 @@
   --focused-base-box-shadow: 0 0 0 0.3rem rgb(var(--color-background)), 0 0 0.5rem 0.4rem rgba(var(--color-foreground), 0.3);
 }
 
+body {
+  min-height: 100vh;
+  font-family: var(--font-body-family);
+  color: rgb(var(--color-foreground));
+  background-color: rgb(var(--color-background));
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.section-header {
+  transition: background-color var(--duration-short) ease, box-shadow var(--duration-short) ease, backdrop-filter var(--duration-short) ease;
+  background-color: rgba(var(--color-background), 0.96);
+  backdrop-filter: saturate(180%) blur(10px);
+}
+
+.shopify-section-header-sticky .header {
+  box-shadow: 0 0.8rem 2.4rem rgba(var(--color-foreground), 0.08);
+}
+
 .product-card-wrapper .card,
 .contains-card--product {
   --border-radius: var(--product-card-corner-radius);
@@ -2507,6 +2527,7 @@ input[type='checkbox'] {
   display: flex;
   grid-area: icons;
   justify-self: end;
+  gap: 0.8rem;
   padding-right: 0.8rem;
 }
 
@@ -2514,6 +2535,36 @@ input[type='checkbox'] {
   max-width: 4.4rem;
   max-height: 4.4rem;
   overflow: hidden;
+}
+
+.header__icon {
+  transition: transform var(--duration-short) ease, color var(--duration-short) ease;
+}
+
+.header__icon:hover {
+  transform: translateY(-0.1rem);
+}
+
+.header__icon--cart {
+  position: relative;
+}
+
+.cart-count-bubble {
+  position: absolute;
+  background-color: rgb(var(--color-button));
+  color: rgb(var(--color-button-text));
+  height: 1.9rem;
+  width: 1.9rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  bottom: 0.7rem;
+  left: 2.1rem;
+  line-height: 1;
+  box-shadow: 0 0 0.6rem rgba(var(--color-foreground), 0.15);
+  border: 0.16rem solid rgb(var(--color-background));
 }
 
 .header__icon:not(.header__icon--summary),

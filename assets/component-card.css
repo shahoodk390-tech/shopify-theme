@@ -3,6 +3,16 @@
   height: 100%;
   position: relative;
   text-decoration: none;
+  transition: transform var(--duration-short) ease, box-shadow var(--duration-short) ease;
+}
+
+.card-wrapper:hover {
+  transform: translateY(-0.35rem);
+}
+
+.card-wrapper:hover .card--card:after,
+.card-wrapper:hover .card--standard .card__inner:after {
+  box-shadow: 0 2.2rem 3.2rem rgba(var(--color-foreground), 0.12);
 }
 
 .card {

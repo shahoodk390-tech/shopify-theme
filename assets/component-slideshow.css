@@ -38,6 +38,22 @@ slideshow-component .slideshow.banner {
   flex-direction: column;
   justify-content: center;
   max-width: 54.5rem;
+  padding: 3rem;
+  background-color: rgba(var(--color-background), 0.82);
+  border-radius: 2rem;
+  border: 0.1rem solid rgba(var(--color-foreground), 0.08);
+  box-shadow: 0 2rem 3rem rgba(var(--color-foreground), 0.12);
+}
+
+.slideshow__text.banner__box .button {
+  min-width: 14rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  margin-top: 2rem;
+}
+
+.slideshow__text.banner__box .button:hover {
+  transform: translateY(-0.08rem);
 }
 
 .slideshow__text > * {
