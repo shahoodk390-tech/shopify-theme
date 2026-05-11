@@ -9,95 +9,6 @@
  */
 {
   "sections": {
-    "collection_list_dhULAP": {
-      "type": "collection-list",
-      "blocks": {
-        "featured_collection_kL67Dg": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "home-decor"
-          }
-        },
-        "featured_collection_fkRpyq": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": ""
-          }
-        },
-        "featured_collection_pzrwyn": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": ""
-          }
-        }
-      },
-      "block_order": [
-        "featured_collection_kL67Dg",
-        "featured_collection_fkRpyq",
-        "featured_collection_pzrwyn"
-      ],
-      "name": "t:sections.collection-list.presets.name",
-      "settings": {
-        "title": "Shop by Category",
-        "heading_size": "h1",
-        "image_ratio": "square",
-        "columns_desktop": 6,
-        "color_scheme": "scheme-1",
-        "show_view_all": true,
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 32,
-        "padding_bottom": 32
-      }
-    },
-    "image_banner_GVKfVt": {
-      "type": "image-banner",
-      "blocks": {
-        "heading_UVYpFV": {
-          "type": "heading",
-          "settings": {
-            "heading": "Welcome to StartXbazar",
-            "heading_size": "hxxl"
-          }
-        },
-        "text_ebxjVD": {
-          "type": "text",
-          "settings": {
-            "text": "Discover our latest collections and exclusive deals",
-            "text_style": "subtitle"
-          }
-        },
-        "buttons_E9949h": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Shop Now",
-            "button_link_1": "shopify://collections/all",
-            "button_style_secondary_1": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_UVYpFV",
-        "text_ebxjVD",
-        "buttons_E9949h"
-      ],
-      "name": "t:sections.image-banner.presets.name",
-      "settings": {
-        "image_overlay_opacity": 0,
-        "image_height": "large",
-        "image_behavior": "none",
-        "desktop_content_position": "middle-center",
-        "desktop_content_alignment": "center",
-        "show_text_box": true,
-        "color_scheme": "scheme-1",
-        "stack_images_on_mobile": true,
-        "mobile_content_alignment": "center",
-        "show_text_below": true
-      }
-    },
     "hero-slideshow": {
       "type": "slideshow",
       "blocks": {
@@ -169,8 +80,6 @@
     }
   },
   "order": [
-    "collection_list_dhULAP",
-    "image_banner_GVKfVt",
     "hero-slideshow",
     "featured_collection_FihepB",
     "17784947766866c3c1"
