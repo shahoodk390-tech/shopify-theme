@@ -162,12 +162,17 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "17784947766866c3c1": {
+      "type": "_blocks",
+      "settings": {}
     }
   },
   "order": [
     "collection_list_dhULAP",
     "image_banner_GVKfVt",
     "hero-slideshow",
-    "featured_collection_FihepB"
+    "featured_collection_FihepB",
+    "17784947766866c3c1"
   ]
 }
